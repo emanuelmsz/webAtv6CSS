@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F7EED3;
+}
+/*receita.html*/
+section {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #FFF8E8;
+    min-height: 1500px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.sectioninside{
+    width: 90%;
+    min-height: 100%;
+    height: 100%;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+.sectioninside img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+   
+}
+
+.sectioninside h2{
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px; 
+    font-weight: bold; 
+    line-height: 30px;
+}
+
+.sectioninside ul{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.sectioninside ol {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.sectioninside ol li{
+    padding-bottom: 15px;
+}
+
+.sectioninside button{
+    background-color: #674636;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    float: right;
+    transition-duration: 0.5s;
+}
+
+.sectioninside button:hover{
+    background-color: #AAB396; 
+    
+}
+header{
+    height: 200px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+/*index.html (a ideia inicial era o receita ser a tela principal, mas mudei de ideia, por isso tá fora do lugar)*/
+.titulo{
+    display:flex;
+    height: 70%;
+    justify-content: space-between;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.titulo p{
+    padding: 10px;
+    text-align:right;
+    font-style: italic; 
+    font-size: 30px;
+    
+}
+
+.titulo h1{
+    padding: 10px;
+    text-align:right;
+    font-size: 60px; 
+    font-weight: bold; 
+    font-style: oblique;
+    
+}
+
+.navegacao{
+    height: 30%;
+    background-color: #674636;
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+
+.navegacao a{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 33%;
+    height: 100%;
+    color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.navegacao div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transition-duration: 0.4s;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+
+.navegacao div:hover{
+    background-color: #AAB396; 
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.corpo{
+    width: 100%;
+    height: 100%;
+    background-color: #AAB396;
+    
+}
+
+.corpoDentro{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.corpoDentro img{
+   height: 100%;
+   width: 100%;
+    
+}
+
+.corpoDentro p{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    text-align: right;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    line-height: 30px;
+    font-style: italic;
+    font-size: 40px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgb(255, 255, 255));
+    padding: 20px;
+}
+
+
+#fontesobrenos {
+    font-family: Ubuntu, sans-serif; 
+    font-weight: 400;
+}
